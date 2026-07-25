@@ -54,3 +54,19 @@ const b = ++a;
 
 console.log(`a:${a}, b:${b}`);
 // Expected output: "a:4, b:4"
+
+
+
+ // In Javascript comparison >, <= and equality == check both works differently
+
+ console.log(null > 0)   // null consider 0 in case of comparison  False
+ console.log(null == 0)  
+ console.log(null >= 0)  // null consider 0 in case of comparison  True
+
+console.log(undefined == 0)  // With undefined it always gives false
+console.log(undefined > 0)
+console.log(undefined < 0)
+
+// Strict Check 
+
+console.log("2"=== 2)
