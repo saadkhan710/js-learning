@@ -31,3 +31,26 @@ console.log(typeof booleanIsLoggedIn)
 // 1      -> True 
 // "saad" -> True
 // ""     -> False 
+
+
+// ************** Operations ***************
+
+console.log("1"+ 2)        // -> 12
+
+console.log( 1 + "2")      // -> 12 
+
+console.log( 3 + 2 + "2")  // -> 52
+
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);  
+// Expected output: "x:4, y:3"    
+
+
+
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
+// Expected output: "a:4, b:4"
