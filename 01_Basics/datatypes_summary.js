@@ -70,3 +70,5 @@ userTwo.upi = "user2@ybl.com"
 console.log(userOne.upi)   // same putput for both user2@ybl.com
 console.log(userTwo.upi)
 
+// Date is an Object ( Interview Q)
+
