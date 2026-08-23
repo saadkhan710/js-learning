@@ -80,3 +80,19 @@ function getArray(newArray_p){
 
 console.log(getArray(newArray))
 
+//++++++++++++++++++ Two way of writing function ++++++++++++
+
+function addOne(num){
+    return num + 1
+}
+
+console.log(addOne(2))
+
+
+const addTwo = function(num1){
+    return num1 + 1 
+}
+
+console.log(addTwo(999))
+
+
