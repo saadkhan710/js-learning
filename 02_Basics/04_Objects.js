@@ -54,3 +54,16 @@ console.log(Object.keys(tinderUSer))  // Returns keys of objects : In Array [ 'i
 console.log(Object.values(tinderUSer))  // Returns values of objects : In Array
 
 console.log(tinderUSer.hasOwnProperty("name"))  // check if object has that Key
+
+const course = {
+    coursename : "js in hindi", 
+    price : 999,
+    courseinstructor : "hitesh"
+}
+
+console.log(course.courseinstructor)
+
+const {coursename:cs} = course  // ease of printing syntax : De- structure  const {} = Object 
+
+console.log(cs)
+
