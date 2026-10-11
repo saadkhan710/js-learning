@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur Code | DOM</title>
+</head>
+<body style="
+    background-color: black; 
+    color: white;">
+    <ul class="language">
+        <li>JavaScript</li>
+    </ul>
+</body>
+<script>
+    
+    function optiaddLanguage(language){
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(language))
+        document.querySelector(".language").appendChild(li)
+    }
+
+    optiaddLanguage("Go")
+
+    //edit 
+
+    const second_element = document.querySelector("li:nth-child(2)")
+    const new_li = document.createElement("li")
+
+    new_li.textContent = "Mojo"
+    second_element.replaceWith(new_li)
+
+    //edit 
+
+    const first_child = document.querySelector("li:first-child")
+    first_child.outerHTML = "<li>Pythonnn</li>"
+
+    //remove
+
+    const last_child = document.querySelector("li:last-child")
+    last_child.remove()
+
+
+</script>
+</html>
